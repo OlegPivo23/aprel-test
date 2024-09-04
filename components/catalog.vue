@@ -90,6 +90,10 @@ onMounted(async () => {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+
+  @media(max-width: 576px){
+    flex-direction: column;
+  }
 }
 
 .search-input {
